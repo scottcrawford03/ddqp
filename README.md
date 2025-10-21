@@ -26,7 +26,7 @@ package main
 
 import (
     "fmt"
-    "github.com/jonwinton/ddqp"
+    "github.com/scottcrawford03/ddqp"
 )
 
 func main() {
@@ -35,11 +35,11 @@ func main() {
     if err != nil {
         panic(err)
     }
-    
+
     // Access structured data
     fmt.Printf("Aggregator: %s\n", query.Query[0].Aggregator)
     fmt.Printf("Metric Name: %s\n", query.Query[0].MetricName)
-    
+
     // Convert back to string
     fmt.Printf("Query String: %s\n", query.String())
 }

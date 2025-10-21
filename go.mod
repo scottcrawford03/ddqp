@@ -1,4 +1,4 @@
-module github.com/jonwinton/ddqp
+module github.com/scottcrawford03/ddqp
 
 go 1.19
 
